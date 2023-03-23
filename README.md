@@ -4,7 +4,7 @@
 + [기술스택](#기술스택)
 + [Spring 설정](#Spring-설정)
 
-# 개요 ✨
+# 개요
 
 면접 과제를 진행하는 동안 사람인에서의 공고를 보고 스택을 골라서 진행했는데,,
 
@@ -16,7 +16,7 @@ Flow의 노션에는 java spring, jsp, jquery 등을 사용해본 경험이 있�
 
 그래서 진행한 리팩토링
 
-# 프로젝트 내용 💻
+# 프로젝트 내용
 
 물론 나도 웹개발을 지향하는 사람으로써 spring을 사용해본 적이 있고
 
@@ -34,13 +34,13 @@ Reactjs 쓸 때 tailwindcss 도 써보고 DB는 Postgresql도 썻다 사실 둘�
 
 이 악물고 Do XP!
 
-# 기술스택 🗃
+# 기술스택
 
 https://stackshare.io/flow-assignment-refactor/flow-assignment-refactor#stack
 
 ![image](https://user-images.githubusercontent.com/68590947/227182130-37cce44e-1692-4912-a8f8-3c3fc1cccc50.png)
 
-# Spring 설정 🛠
+# Spring 설정
 
 + Project - Gradle (Groovy)
 + Language - Java
