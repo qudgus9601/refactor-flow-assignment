@@ -23,6 +23,16 @@ dependencies {
 	// jdbc
 	implementation 'org.springframework:spring-jdbc:5.3.14'
 
+	// jpa
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// postgresql
+	implementation group: 'org.postgresql', name:'postgresql',version:'42.2.19'
+
 	// test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
