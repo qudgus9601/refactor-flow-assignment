@@ -5,5 +5,4 @@ public interface UserService {
     public abstract String createUser();
     public abstract String deleteUser();
     public abstract String updateUser();
-
 }

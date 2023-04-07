@@ -1,4 +1,8 @@
 package com.assignment.flow.user.service;
 
-public class UserServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public abstract class UserServiceImpl implements UserService{
+
 }

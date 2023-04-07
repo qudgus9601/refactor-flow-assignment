@@ -21,6 +21,9 @@
         </div>
     </div>
     <div class="content">
+        <div>
+            signup
+        </div>
     </div>
     </div>
 </body>
