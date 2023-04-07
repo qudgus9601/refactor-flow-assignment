@@ -1,4 +1,4 @@
 package com.assignment.flow.user.service;
 
-public class userServiceImpl {
+public class UserServiceImpl {
 }

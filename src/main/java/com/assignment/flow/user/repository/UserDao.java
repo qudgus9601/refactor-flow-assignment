@@ -1,4 +1,4 @@
 package com.assignment.flow.user.repository;
 
-public class userDao {
+public class UserDao {
 }
