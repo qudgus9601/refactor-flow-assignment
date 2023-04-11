@@ -26,6 +26,12 @@ dependencies {
 
 	// test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// security
+	implementation 'org.springframework.security:spring-security-core:5.7.4'
+
+	// jsp live reload
+	implementation "org.springframework.boot:spring-boot-devtools"
 }
 
 tasks.named('test') {

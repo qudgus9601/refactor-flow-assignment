@@ -11,20 +11,36 @@
 </head>
 <body>
     <div class="wrapper">
-    <div class="nav">
-        <div class="logo">
-           BeHoney
+        <div class="nav">
+            <div class="logo">
+               BeHoney
+            </div>
+            <div class="menus">
+                <div class="menu">Settings</div>
+                <div class="menu">Upload</div>
+            </div>
         </div>
-        <div class="menus">
-            <div class="menu">Settings</div>
-            <div class="menu">Upload</div>
+        <div class="content">
+            <div class="container">
+                <div class="signup_container">
+                    <span class="signup_title">Flow.Team</span>
+                    <span class="signup_subtitle">Java-SpringBoot Refactor Version</span>
+                    <label class="signup_label">login</label>
+                    <input class="signup_input" type="text">
+                    <label class="signup_label">password</label>
+                    <input class="signup_input" type="password">
+                    <button class="signup_button">
+                        Join flow.team
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="content">
-        <div>
-            signup
-        </div>
-    </div>
-    </div>
+
+    <script>
+        $(".signup_button").click(() => {
+            console.log("hello");
+        });
+    </script>
 </body>
 </html>
