@@ -1,14 +1,13 @@
 package com.assignment.flow.user.service;
 
-import com.assignment.flow.user.dto.UserDto;
-import com.assignment.flow.utils.Encrypt;
+import com.assignment.flow.user.dto.UserRequestDto;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService{
 
-    public UserDto signin (UserDto user) {
-        UserDto newUser = user.builder()
+    public UserRequestDto signin (UserRequestDto user) {
+        UserRequestDto newUser = user.builder()
                 .loginId(user.getLoginId())
                 .password(user.getPassword())
                 .role(user.getRole())

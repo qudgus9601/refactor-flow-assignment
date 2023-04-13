@@ -7,15 +7,15 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserDto {
+public class UserRequestDto {
 
     private String loginId;
     private String password;
     private Integer role;
 
-    public UserDto() {};
+    public UserRequestDto() {};
     @Builder
-    public UserDto(String loginId, String password, int role) {
+    public UserRequestDto(String loginId, String password, int role) {
         this.loginId = loginId;
         this.password = password;
         this.role = role;

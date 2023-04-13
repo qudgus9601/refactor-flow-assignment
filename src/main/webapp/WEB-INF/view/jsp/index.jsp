@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flow-Assignment</title>
     <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
     <script type="text/javascript" src="/js/jquery-3.6.4.min.js"></script>
 </head>
 <body>
@@ -21,10 +22,12 @@
         </div>
     </div>
     <div class="content">
-        <div class="title emphasize">flow.team</div>
-        <div class="title">Refactor Assignment</div>
-        <p>Spring 사용 경험을 늘리기 위해서 작업하였습니다.</p>
-        <p>파일 업로드에 좀 더 집중하였습니다.</p>
+        <div class="home">
+            <div class="title emphasize">flow.team</div>
+            <div class="title">Refactor Assignment</div>
+            <p>Spring 사용 경험을 늘리기 위해서 작업하였습니다.</p>
+            <p>파일 업로드에 좀 더 집중하였습니다.</p>
+        </div>
     </div>
     </div>
 </body>

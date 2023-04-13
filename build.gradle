@@ -28,10 +28,14 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// security
-	implementation 'org.springframework.security:spring-security-core:5.7.4'
+	implementation 'org.springframework.security:spring-security-core:5.7.7'
 
 	// jsp live reload
 	implementation "org.springframework.boot:spring-boot-devtools"
+
+	// mybatis
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.1'
+
 }
 
 tasks.named('test') {

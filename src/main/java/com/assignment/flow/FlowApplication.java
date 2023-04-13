@@ -12,14 +12,4 @@ public class FlowApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FlowApplication.class, args);
 	}
-
-	@Controller
-	public class HomeController {
-		@RequestMapping("/")
-		public ModelAndView Home() {
-			ModelAndView mv = new ModelAndView();
-			mv.setViewName("/index");
-			return mv;
-		}
-	}
 }
