@@ -1,18 +1,19 @@
 package com.assignment.flow.user.service;
 
-import com.assignment.flow.user.dto.UserRequestDto;
+import com.assignment.flow.user.dto.UserDto;
+import lombok.Builder;
 import org.springframework.stereotype.Service;
 
 @Service
+@Builder
 public class UserServiceImpl implements UserService{
 
-    public UserRequestDto signin (UserRequestDto user) {
-        UserRequestDto newUser = user.builder()
-                .loginId(user.getLoginId())
+    public UserDto signin (UserDto user) {
+        return UserDto.builder()
+                .email(user.getEmail())
                 .password(user.getPassword())
                 .role(user.getRole())
                 .build();
-        return newUser;
     }
 
     @Override
